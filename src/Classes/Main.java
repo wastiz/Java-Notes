@@ -16,7 +16,7 @@ public class Main {
         // private - доступ только в самом классе
 
         // Итак, вроде все уяснили. Переходим в класс транспорта
-        Transport bmw = new Transport(45.55f, 344.55f, "green", new byte[] {0, 0, 0});
+        Transport bmw = new Transport(45.55f, 344.55f, "green", new byte[] {0, 0, 0}); // ошибка, потмоу что класс абстрактный
         bmw.color = "red";
         System.out.println(bmw.color);
 
