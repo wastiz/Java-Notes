@@ -60,6 +60,12 @@ public class Lists {
 
         // С Linked и Tree тоже самое. В Linked по другому методы реализованы, а в Tree словарь будет сортироваться
 
+        HashMap<String, Integer> newMap2 = new HashMap<>();
+        newMap2.put("Apple", 5);
+        newMap2.put("Orange", 6);
+        newMap2.put("Banana", 6);
+        newMap2.put("Apple", 4);
+        System.out.println(newMap2);
 
         // Дополнительно. Если вдруг нужен список с разными типов данных, то:
         List<Object> newArray4 = new ArrayList<>(List.of("String", 4, 3.23, true));
